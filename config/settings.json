@@ -1,0 +1,28 @@
+{
+    "browser": {
+        "headless": false,
+        "stealth": true,
+        "timeout": 30000,
+        "viewport": {
+            "width": 1920,
+            "height": 1080
+        }
+    },
+    "stealth": {
+        "remove_webdriver": true,
+        "mock_plugins": true,
+        "mock_languages": true,
+        "block_chrome_automation": true
+    },
+    "session": {
+        "storage_dir": "~/.browser-use/sessions",
+        "auto_save": true,
+        "auto_load": true
+    },
+    "proxy": {
+        "enabled": false,
+        "server": "",
+        "username": "",
+        "password": ""
+    }
+}
